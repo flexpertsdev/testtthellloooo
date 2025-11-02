@@ -1,0 +1,23 @@
+---
+import BaseLayout from '@/layouts/BaseLayout.astro';
+---
+
+<BaseLayout title="Hello, World!">
+	<main>
+		<h1>Hello, World!</h1>
+	</main>
+</BaseLayout>
+
+<style>
+	main {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		min-height: 100vh;
+	}
+	h1 {
+		font-size: 4rem;
+		font-weight: 700;
+		color: var(--color-text);
+	}
+</style>
